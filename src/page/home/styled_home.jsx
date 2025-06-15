@@ -28,9 +28,6 @@ export const LeftLogin = styled.div`
     font-size: 3vw;
     color: var(--color-secondary);
   }
-  & .astronauta {
-    width: 30vw;
-  }
 
   @media (max-width: ${breakpoints.tablet}) {
     width: 100%;
@@ -38,11 +35,6 @@ export const LeftLogin = styled.div`
 
     h1 {
       display: none;
-    }
-
-    .astronauta {
-      width: 50vw;
-      margin-bottom: 1rem;
     }
   }
   @media (max-width: ${breakpoints.mobile}) {
@@ -52,11 +44,21 @@ export const LeftLogin = styled.div`
     h1 {
       display: none;
     }
+  }
+`;
 
-    .astronauta {
-      width: 50vw;
-      margin-bottom: 1rem;
-    }
+export const Astronauta = styled.img`
+  width: 30vw;
+
+  @media (max-width: ${breakpoints.tablet}) {
+    width: 40vw;
+    margin-bottom: 1rem;
+    height: 40vh;
+  }
+  @media (max-width: ${breakpoints.mobile}) {
+    width: 40vw;
+    margin-bottom: 1rem;
+    height: 40vh;
   }
 `;
 export const RightLogin = styled.div`
@@ -126,7 +128,7 @@ export const RightLogin = styled.div`
     @media (max-width: ${breakpoints.tablet}) {
       width: 90%;
     }
-      @media (max-width: ${breakpoints.mobile}) {
+    @media (max-width: ${breakpoints.mobile}) {
       width: 90%;
     }
   }

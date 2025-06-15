@@ -1,6 +1,8 @@
 import { MainLogin } from "./styled_home";
 import { LeftLogin } from "./styled_home";
 import { RightLogin } from "./styled_home";
+import {Astronauta} from "./styled_home"
+import ImgAstronauta from "../../assets/astronaut-suit-animate.svg"
 
 function App() {
   return (
@@ -10,10 +12,9 @@ function App() {
             Faça login
             <br />E entre para nosso time
           </h1>
-          <img
-            src="/src/assets/astronaut-suit-animate.svg"
+          <Astronauta
+            src={ImgAstronauta}
             alt="astronauta"
-            className="astronauta"
           />
         </LeftLogin>
         <RightLogin>
