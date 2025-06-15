@@ -51,14 +51,12 @@ export const Astronauta = styled.img`
   width: 30vw;
 
   @media (max-width: ${breakpoints.tablet}) {
-    width: 40vw;
-    margin-bottom: 1rem;
-    height: 40vh;
+    width: 50vw;
+    height: 50vh;
   }
   @media (max-width: ${breakpoints.mobile}) {
-    width: 40vw;
-    margin-bottom: 1rem;
-    height: 40vh;
+    width: 50vw;
+    height: 50vh;
   }
 `;
 export const RightLogin = styled.div`
