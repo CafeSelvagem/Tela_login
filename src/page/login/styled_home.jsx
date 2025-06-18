@@ -48,15 +48,15 @@ export const LeftLogin = styled.div`
 `;
 
 export const Astronauta = styled.img`
-  width: 30vw;
 
   @media (max-width: ${breakpoints.tablet}) {
-    width: 60vw;
+    width: 50vw;
     height: 20vh;
+
   }
   @media (max-width: ${breakpoints.mobile}) {
-    width: 60vw;
     height: 20vh;
+    margin-bottom: 5rem;
   }
 `;
 export const RightLogin = styled.div`
